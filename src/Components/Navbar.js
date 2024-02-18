@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className='d-flex'>
             <div class="wrapper">
                 <div class="button">
-                    <NavLink to={"/"} className='links'>
+                    <NavLink to={"/"} className='links '>
                         <div class="icon">
                             <i class="fas fa-home"></i>
                         </div>

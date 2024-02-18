@@ -8,7 +8,15 @@
      background-color: black;
      padding-bottom: 150px;
  }
-
+ .top-modal{
+    background-color: black;
+ }
+.home-close-button{
+    background-color: #5c5656;
+    padding: 30px;
+    border: 5px solid whitesmoke;
+    border-radius: 50%;
+}
  .wrapper {
      position: fixed;
      margin-top: 50px;
