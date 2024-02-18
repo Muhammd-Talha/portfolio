@@ -11,7 +11,7 @@ const Home = () => {
                 <div className="row column-reverse">
                     <div className='col-md-6 Header ps-md-5 '>
                         <div className='horizontal-line'></div>
-                        <h1 className='pt-md-5 ps-md-5'><span>I'M Muhammad Talha.</span> <br /> MERN Stack web Developer</h1>
+                        <h1 className='pt-md-5 ps-md-5'><span>I'M Muhammad Muneeb.</span> <br /> MERN Stack web Developer</h1>
                         <p className='ps-3'>I'm a Pakistan based web designer & developer focused on crafting clean & user‑friendly experiences. I have 6 month of an experience in javaScript Tech Stack like React JS ,Node JS & Express JS I am passionate about building excellent software that improves the lives of those around me.
                         </p>
                     </div>
