@@ -1,5 +1,4 @@
 
-
 *{
     margin: 0%;
     padding: 0%;
@@ -107,6 +106,14 @@
     left: 18px;
     background-color: white;
 }
+.vertical-line-one{
+    width: 2px;
+    height: 90px;
+    position: relative;
+    left: 18px;
+    background-color: white;
+}
+
 .footer li{
     list-style-type: none;
     background-color: #252525;

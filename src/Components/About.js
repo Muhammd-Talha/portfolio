@@ -222,6 +222,7 @@ const About = () => {
             </Container>
             <Container>
                 <h1 className='about-heading'>EXPERIENCE & EDUCATION</h1>
+                
                 <div className="row left-side-margin ms-md-5">
                     <div className="col-lg-6 d-flex mb-5">
                         <div className='me-4'>
