@@ -1,0 +1,233 @@
+ * {
+     margin: 0%;
+     padding: 0%;
+     box-sizing: border-box;
+ }
+
+ body {
+     background-color: black;
+     padding-bottom: 150px;
+ }
+
+ .wrapper {
+     position: fixed;
+     margin-top: 50px;
+ }
+
+ .button {
+     display: block;
+     height: 60px;
+     width: 60px;
+     margin: 30px 15px;
+     background: #2b2a2a;
+     border-radius: 50px;
+     overflow: hidden;
+     cursor: pointer;
+     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+     transition: all 0.3s ease-out;
+ }
+
+ .wrapper {
+    z-index: 1;
+}
+ .wrapper .button:hover {
+     width: 190px;
+     background-color: orange;
+     
+ }
+
+ .wrapper .button .icon {
+     display: inline-block;
+     height: 60px;
+     width: 60px;
+     text-align: center;
+     border-radius: 50px;
+     box-sizing: border-box;
+     transition: all 0.3s ease-out;
+     color: white;
+     box-sizing: border-box;
+ }
+
+ .wrapper .button .icon i {
+     font-size: 25px;
+     line-height: 60px;
+     transition: all 0.3s ease-out;
+ }
+
+ .wrapper .button:hover .icon i {
+     color: #fff;
+ }
+
+ .wrapper .button span {
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 60px;
+     margin-left: 10px;
+     transition: all 0.3s ease-out;
+     color: white;
+     text-transform: uppercase;
+ }
+
+ a {
+     color: white;
+     text-decoration: none;
+ }
+
+ /* ===================== Home start================ */
+ .Header h1 {
+     /* background-color: red; */
+     font-size: 51px;
+     text-transform: uppercase;
+     font-family: Poppins, sans-serif;
+     font-weight: 600;
+     color: white;
+ }
+
+ .Header span {
+     color: orange;
+ }
+
+ .Header p {
+     color: white;
+     font-size: 16px;
+     line-height: 30px;
+ }
+
+ .horizontal-line {
+     border: 3px solid orange;
+     width: 40px;
+     border-radius: 20px;
+     position: absolute;
+     top: 75px;
+
+ }
+
+ .Image-style img {
+     height: 400px;
+     width: 400px;
+     border-radius: 50%;
+ }
+
+ .Image-style {
+     text-align: center;
+ }
+
+ .modal-button {
+     padding: 12px 30px;
+     border-radius: 50px;
+     border: none;
+     background-color: black;
+     border: 3px solid orange;
+     color: white;
+     font-size: 20px;
+     font-weight: 600;
+     transition: 1s;
+ }
+
+ .modal-button:hover {
+     background-color: orange;
+ }
+
+ .button-icon {
+     margin-left: 10px;
+     font-weight: 500;
+     font-size: 25px;
+ }
+ 
+ /* ===================== Home End================ */
+ @media screen and (max-width:1199.98px) {
+     .wrapper {
+         z-index: 1;
+     }
+ }
+
+ @media screen and (max-width:992px) {
+
+     .wrapper .button:hover {
+         width: 60px;
+     }
+
+     .Header h1 {
+         font-size: 48px;
+     }
+
+     .horizontal-line {
+         display: none;
+     }
+
+ }
+
+ @media screen and (max-width:767.98px) {
+     .wrapper {
+         display: flex;
+         justify-content: space-around;
+         width: 100%;
+         position: fixed;
+         bottom: 0px;
+     }
+
+     .wrapper .button:hover {
+         width: 60px;
+     }
+
+     .Header h1 {
+         font-size: 40px;
+     }
+
+     .horizontal-line {
+         display: none;
+     }
+
+     .wrapper {
+         position: fixed;
+         bottom: 0%;
+     }
+
+     .Image-style img {
+         height: 350px;
+         width: 350px;
+     }
+
+     .column-reverse {
+         display: flex;
+         flex-direction: column-reverse;
+     }
+ }
+
+ @media screen and (max-width:576px) {
+     .wrapper {
+         display: flex;
+         justify-content: space-around;
+         width: 100%;
+         position: absolute;
+         bottom: 0px;
+     }
+
+     .button {
+         margin: 0px;
+     }
+
+     .wrapper .button:hover {
+         width: 60px;
+     }
+
+     .Header h1 {
+         font-size: 28px;
+         text-align: center;
+         margin-top: 20px;
+     }
+
+     .horizontal-line {
+         display: none;
+     }
+
+     .Image-style img {
+         height: 250px;
+         width: 250px;
+     }
+
+     .wrapper {
+         position: fixed;
+         bottom: 0%;
+     }
+ }

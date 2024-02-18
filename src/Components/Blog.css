@@ -1,0 +1,103 @@
+.card-s .card-img-top{
+    transition: 1s;
+    height: 200px;
+    border-bottom: 8px solid orange;
+}
+.second-card .card-img-top{
+    height: 240px;
+    border-bottom: 8px solid orange;
+}
+.card-s .card {
+    overflow: hidden;
+}
+.card-s:hover .card-img-top{
+    transform: scale(1.1);
+}
+.first-card img{
+    transition: 1s;
+    border-bottom: 8px solid orange;
+}
+.first-card {
+    overflow: hidden;
+}
+.second-card{
+    overflow: hidden;
+}
+.section-card h5{
+    color: orange;
+}
+.second-card img{
+    transition: 1s;
+}
+.second-card:hover img{
+    transform: scale(1.1);
+}
+.first-card:hover img{
+transform: scale(1.1);
+}
+
+.section-card{
+    background-color: #252525;
+}
+.blog-modal{
+    background-color: black;
+}
+.blog-list{
+    list-style-type: none;
+    position: relative;
+    top: -30px;
+}
+.blog-close-button{
+    background-color:#5c5656;
+    padding: 30px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.blog-list li{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+    color: white;
+}
+.blog-list .list-icons{
+    font-size: 20px;
+    color: orange;
+    margin-top: -5px;
+}
+.blog-list h1{
+    margin-top: 10px;
+    font-weight: 700;
+    color: orange;
+}
+.blog-image img{
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+.blog-image p{
+    color: white;
+    text-align: justify;
+}
+.modal-icon{
+    font-size: 45px;
+    color: orange;
+}
+
+
+@media screen and (max-width:992px) {
+    .middle-margin {
+        margin-left: 30px;
+    }
+    
+}
+
+@media screen and (max-width:575.98px) {
+    .middle-margin {
+        margin: auto;
+    }
+    .blog-list h1{
+        font-size: 23px;
+        font-weight: 600;
+    }
+
+}

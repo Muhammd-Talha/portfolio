@@ -1,0 +1,88 @@
+.bottom{
+    margin-bottom: 30px;
+}
+.image-card img{
+    height: 230px;
+    border-radius: 20px;
+}
+.box{
+    /* width: 350px; */
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.box img{
+    width: 100%;
+}
+.content{
+    /* background-color: rgba(0, 0,0, 0.8); */
+    position: absolute;
+    left: -100%;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+    color: white;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.box:hover .content{
+    left: 0%;
+    border-radius: 20px;
+    background-color: orange;
+}
+.content h5{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.nav-pills a{
+    color: white;
+    font-size: 25px;
+}
+.nav-pills a:hover{
+    color: orange;
+}
+.portfolio-modal{
+    background-color: black;
+}
+pre{
+    color: white;
+}
+.modal-buttn{
+    outline: none;
+    border: none;
+}
+.modal-heading h5{
+    color: orange;
+    font-weight: 600;
+    font-size: 40px;
+}
+.pre-tag{
+    margin-top: 10px;
+    text-align: center;
+}
+.portfolio-icons{
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: -2px;
+}
+pre{
+    font-size: 18px;
+}
+.modal-image{
+    margin: 5px;
+}
+.modal-image img{
+    border-radius: 40px;
+}
+
+
+@media screen and (max-width:576px) {
+    .modal-heading h5{
+        font-size: 25px;
+
+    }
+    
+}
