@@ -83,8 +83,10 @@ const Home = () => {
                                                     <form action="" className='form-controls ps-md-5 ps-lg-0'>
                                                         <label className='pb-3'>F Name:</label>
                                                         <span>Muhammad</span> <br />
-                                                        <label className='pb-3'>Age:</label>
-                                                        <span>24 Year</span> <br />
+                                                        <label className='pb-3'>L Name:</label>
+                                                        <span >Talha</span> <br />
+                                                        {/* <label className='pb-3'>Age:</label>
+                                                        <span>24 Year</span> <br /> */}
                                                         <label className='pb-3'>Freelancer:</label>
                                                         <span>Available</span> <br />
                                                         <label className='pb-3'>Phone:</label>
@@ -95,6 +97,8 @@ const Home = () => {
                                                 </div>
                                                 <div className="col-md-6">
                                                     <form action="" className='form-controls'>
+                                                        <label className='pb-3'>Age:</label>
+                                                        <span>24 Year</span> <br />
                                                         <label className='pb-3'>L Name:</label>
                                                         <span >Talha</span> <br />
                                                         <label className='label-class p-0 pb-3'>Nationality:</label>
