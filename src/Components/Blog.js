@@ -166,7 +166,7 @@ const Blog = () => {
                                             </div>
                                             <div className='blog-image'>
                                                 <p className='me-4 text-white'>
-                                                Code: Code is essentially what web developers write using programming languages. Bug: A bug is an error that prevents a website or app from running as it should. Debugging: Debugging is the process of identifying and dealing with BUGs.Debugging is a multistep process: the developer locates the problem, isolates the source and then gets to work on fixing it. API:“Application Program Interface” An API enables two different programs to communicate with each other by making some parts of the website code available to developers.
+                                                    Code: Code is essentially what web developers write using programming languages. Bug: A bug is an error that prevents a website or app from running as it should. Debugging: Debugging is the process of identifying and dealing with BUGs.Debugging is a multistep process: the developer locates the problem, isolates the source and then gets to work on fixing it. API:“Application Program Interface” An API enables two different programs to communicate with each other by making some parts of the website code available to developers.
                                                 </p>
                                             </div>
                                         </div>

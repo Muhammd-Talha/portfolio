@@ -76,7 +76,7 @@ const Home = () => {
                                         </div>
                                         <div className="col-lg-12 col-md-12">
                                             <div className="row sections">
-                                                <h2>personal information</h2>
+                                                <h2>personal information</h2> 
                                             </div>
                                             <div className="row">
                                                 <div className="col-md-6 ">
@@ -106,7 +106,7 @@ const Home = () => {
                                                         <label className='pb-3'>Address:</label>
                                                         <span>Lahore</span> <br />
                                                         <label className='pb-3'>Email:</label>
-                                                        <span>hr@gmail.com</span> <br />
+                                                        <span>MuhammadTalha9279@gmail.com</span> <br />
                                                         <label className=''>Language:</label>
                                                         <span>English</span> <br />
                                                     </form>

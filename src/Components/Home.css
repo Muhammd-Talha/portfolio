@@ -3,6 +3,27 @@
      padding: 0%;
      box-sizing: border-box;
  }
+ /* width */
+::-webkit-scrollbar {
+    width: 13px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px orange; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: orange; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: white; 
+  }
 
  body {
      background-color: black;
@@ -12,10 +33,9 @@
     background-color: black;
  }
 .home-close-button{
-    background-color: #5c5656;
+    background-color: white;
     padding: 30px;
-    border: 5px solid whitesmoke;
-    border-radius: 50%;
+    border-radius: 20%;
 }
  .wrapper {
      position: fixed;

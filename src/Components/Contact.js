@@ -31,12 +31,12 @@ const Contact = () => {
                             <p className='line-height pb-3'>
                                 <FaMap className='icon-s' />
                                 <span>ADDRESS POITN</span> <br />
-                                <span className=' margin-top'>46j model town j block Lahore</span>
+                                <span className=' margin-top'>Model town Lahore</span>
                             </p>
                             <p className='line-height pb-3'>
                                 <LuMailOpen className='icon-s' />
                                 <span>MAIL ME</span> <br />
-                                <span className=' margin-top'>Talh12@gmail.com</span>
+                                <span className=' margin-top'>MuhammadTalha9279@gmail.com</span>
                             </p>
                             <p className='line-height'>
                                 <FaWhatsapp className='icon-s' />
